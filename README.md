@@ -3,7 +3,7 @@
 
 
 Tecnologias :
-
+![](/imagens/INFRA1.PNG) 
 
 - Azure Datalake Gen 1
 - Azure Databricks
