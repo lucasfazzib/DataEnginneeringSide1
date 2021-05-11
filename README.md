@@ -3,7 +3,7 @@
 
 
 Tecnologias :
-![](/imagens/INFRA1.PNG) 
+![](/imagens/INFRA1.png) 
 
 - Azure Datalake Gen 1
 - Azure Databricks
@@ -21,27 +21,42 @@ Tarefas:
 
 - Criação de Usuário de serviço dp Cluster Databricks
     - Criar um AppRegister ( Usuario de serviço, registro de aplicativo(app registration))
+    - ![](/imagens/appregistration.png)
         - Usuario que vai fazer a função de leitura e escrita.
         - Conexao via ouath2 do databiricks com datalake
 
     - Armazenar Cliente ID, Tenant ID e Secret
 
 - Azure Data Lake Gen 1
+- ![](/imagens/datalake.png)
     - Criar um Resource Group
     - Subir uma instancia de Azure Datalake Gen 1
+    - ![](/imagens/datalake2.png)
     - Definir a arquitetura do Datalake
     - Criar as pastas baseadas na arquitetura definida
+    - ![](/imagens/datalake3.png)
+    - ![](/imagens/datalake4.png) 
     - Realizar a ingestão para a camada inicial
     - Dar permissao ao usuario de serviço
 
 - Integrando Databricks + Datalake Gen 1
+- ![](/imagens/databricks1.png) 
+- ![](/imagens/cluster1.png) 
     - Criar cluster
     - Adicionar congifuração de autenticação do cluster no Datalake Gen 1
     - Testar acesso
 
 - Criar Pipeine de Ingestão
-    - Ingestão na Camada Raw
+    - Ingestão na Camada Raw/silver
+    - ![](/imagens/bronze1.png) 
+    - ![](/imagens/bronze2.png)
+
+
     - Ingestão na Camada Silver
+    - ![](/imagens/silver1.png) 
+    - ![](/imagens/silver2.png) 
+    - ![](/imagens/silver3.png) 
+    - ![](/imagens/silver4.png) 
 
 
 
