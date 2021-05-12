@@ -57,8 +57,7 @@ Tarefas:
     - Ingestão na Camada Silver
     - ![](/imagens/silver1.png) 
     - ![](/imagens/silver2.png) 
-    - ![](/imagens/silver3.png) 
-    - ![](/imagens/silver4.png) 
+
 
 
 
@@ -166,6 +165,10 @@ Tarefas:
             - Se voce nao tem conhecimento profundo do dado, é legal usar esse tipo de tratativa que o spark ja trata automatico, se um campo nao existe ele ja trata como nulo, pra gente nesse projeto é aceitavel.
             - Só dando um select na coluna do json value é retornado um dataframe, o spark nao lida bem com isso com o read.json ele prefere que seja lgo masi tipado como um dataset de streaming, vamos converter esse cara para dataset usando asStrign (scala)
             - Vamos começar a limpar e criar um schema para disponibilizar par ao usuario.
+
+
+    - ![](/imagens/silver3.png) 
+    - ![](/imagens/silver4.png) 
 
 
         - Infer schema foi realizado tornando campos como pricingInfo e geoLocation em campos com um schema flat igual aos outros, muito mais facil para utilização de data scientists.
