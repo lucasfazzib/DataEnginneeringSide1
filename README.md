@@ -30,23 +30,23 @@ Tarefas:
     - Armazenar Cliente ID, Tenant ID e Secret
 
 - Azure Data Lake Gen 1
-- ![](/imagens/datalake.png)
     - Criar um Resource Group
     - Subir uma instancia de Azure Datalake Gen 1
-    - ![](/imagens/datalake2.png)
     - Definir a arquitetura do Datalake
     - Criar as pastas baseadas na arquitetura definida
-    - ![](/imagens/datalake3.png)
-    - ![](/imagens/datalake4.png) 
     - Realizar a ingestão para a camada inicial
     - Dar permissao ao usuario de serviço
+    - ![](/imagens/datalake.png)
+    - ![](/imagens/datalake2.png)
+    - ![](/imagens/datalake3.png)
+    - ![](/imagens/datalake4.png) 
 
 - Integrando Databricks + Datalake Gen 1
-- ![](/imagens/databricks1.png) 
-- ![](/imagens/cluster1.png) 
     - Criar cluster
     - Adicionar congifuração de autenticação do cluster no Datalake Gen 1
     - Testar acesso
+- ![](/imagens/databricks1.png) 
+- ![](/imagens/cluster1.png) 
 
 - Criar Pipeine de Ingestão
     - Ingestão na Camada Raw/silver
