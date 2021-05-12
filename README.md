@@ -3,6 +3,8 @@
 
 
 Tecnologias :
+
+
 ![](/imagens/INFRA1.png) 
 
 - Azure Datalake Gen 1
